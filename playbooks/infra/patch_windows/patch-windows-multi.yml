@@ -1,0 +1,8 @@
+# PLAYBOOK #1 — Patch windows servers
+- name: Patch windows servers
+  hosts: windowsservers
+  become: true
+
+  tasks:
+    # Check for pending updates & Check free space on drive C & fail if there is not enough space & Patch
+    
