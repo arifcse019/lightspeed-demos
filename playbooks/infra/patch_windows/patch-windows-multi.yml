@@ -4,5 +4,5 @@
   become: true
 
   tasks:
-    # Check for pending updates & Check free space on drive C & fail if there is not enough space & Patch
+    # Check for pending updates & Check free space & fail if there is not enough space & Patch
     
